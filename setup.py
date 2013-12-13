@@ -7,7 +7,7 @@ from django_su import __version__
 
 setup(
     name='django-su',
-    version=__version__,
+    version='0.4.0.1',
     description="Login as any user from the Django admin interface, then switch back when done",
     long_description=open('README.rst').read() if os.path.exists("README.rst") else "",
     author="Adam Charnock",
